@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body style="text-align: center;">
+    <h1>Simple Calculator</h1>
+    <label for="val1"></label>
+    <input type="number" name="val1" id="val1">
+    <label for="val1"></label> 
+    <input type="number" name="val2" id="val2">
+    <br><br>
+    <div>
+    <input type="button" value="+" id="add" onclick="opr(this.id)" >
+    <input type="button" value="*" id="mul" onclick="opr(this.id)" >
+    <input type="button" value="-" id="sub" onclick="opr(this.id)" >
+    <input type="button" value="/" id="div" onclick="opr(this.id)" >
+</div>
+ <br><br>
+    <input type="text" name="res" id="res" value="" disabled>
+    <input type="button" value="Reset" onclick="re()">
+</body>
+</html>
